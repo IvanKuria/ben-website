@@ -1,0 +1,109 @@
+/* Body Attributes */
+body{
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(3) rotate(105)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(40, 4.2%, 13.90%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='1' stroke='hsla(34, 5.8%, 23.7%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-174,-27)' fill='url(%23a)'/></svg>");
+  max-width: auto;
+    
+}
+
+.container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 500px;
+}
+
+/* Pfp Attributes */
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Intro Text Div Attributes */
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: fit-content;
+    
+}
+
+/* Header(h1) Attributes */
+#greeting{
+    font-size: 1.75rem;
+    color: whitesmoke;
+    margin:0px;
+    grid-column: span 3;
+    padding-top: 2rem;
+}
+
+
+/* Student Name Attributes */
+.student-name{
+    font-size: 6rem;
+    color: whitesmoke;
+    font-weight: bold;
+    max-width: auto;
+
+}
+
+.career{
+    font-family: Inter, "Inter Placeholder", sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.content{
+    display: flex;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    font-size: 1.5rem;
+}
+
+.socials-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.socials-container a{
+  background-color: gray;
+}
+
+.socials-container a svg{
+  height: 32px;
+  fill: white;
+}
+
+
+
+/* Link Attributes */
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: wheat;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
