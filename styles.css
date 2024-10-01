@@ -14,10 +14,17 @@ body{
 }
 
 /* Pfp Attributes */
-img{
+.glow{
   width: 150px;
   height: 150px;
+  object-fit: cover;
   border-radius: 50%;
+}
+
+/* Adds a hover affect to the image */
+.glow:hover {
+  background: gold;
+  box-shadow: 0 0 70px gold
 }
 
 /* Intro Text Div Attributes */
@@ -81,6 +88,10 @@ img{
   fill: white;
 }
 
+/* Hover effect for svg images */
+.socials-container a svg:hover {
+  box-shadow: 0 0 70px gold
+}
 
 
 /* Link Attributes */
